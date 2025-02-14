@@ -1,0 +1,47 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build files (Frontend & Backend)
+dist/
+build/
+public/
+
+# Environment variables (Sensitive data)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database files
+*.sqlite
+*.sqlite3
+dump.rdb
+mongod.lock
+data/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
