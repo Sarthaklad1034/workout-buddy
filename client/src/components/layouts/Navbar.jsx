@@ -20,12 +20,12 @@ const Navbar = () => {
           <div className="flex items-center">
             {isAuthenticated ? (
               <div className="flex items-center space-x-4">
-                <Link
+                {/* <Link
                   to="/dashboard"
                   className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Dashboard
-                </Link>
+                </Link> */}
                 <button
                   onClick={logout}
                   className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium"
